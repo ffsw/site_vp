@@ -1,2 +1,2 @@
-# site_wsn
-Site config for Domäne Weinstrasse Nord (NW/DÜW)
+# site_vp
+Site config for Community Vorderpfalz in Domäne WSN
