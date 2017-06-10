@@ -2,7 +2,7 @@
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
         gluon-authorized-keys \
-        ffpb-ebtables-net-rules \
+        ffho-ebtables-net-rules \
         gluon-alfred \
         gluon-respondd\
         gluon-autoupdater \
@@ -32,7 +32,8 @@ GLUON_SITE_PACKAGES := \
         ffsw-chkgw \
         ffsw-keyupl \
         iwinfo \
-	ffffm-additional-wifi-json-info
+	ffffm-additional-wifi-json-info \
+	ffsw-banner
 	
 
 # add offline ssid only if the target has wifi device
@@ -152,7 +153,7 @@ endif
 #                       opkg compare-versions "$1" '>>' "$2"
 #               to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := ffvp-v021
+DEFAULT_GLUON_RELEASE := ffvp-v024
 
 #       GLUON_RELEASE
 #               call make with custom GLUON_RELEASE flag, to use your own release version scheme.
