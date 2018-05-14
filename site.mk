@@ -3,7 +3,6 @@ GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
         gluon-authorized-keys \
         ffho-ebtables-net-rules \
-        gluon-alfred \
         gluon-respondd\
         gluon-autoupdater \
         gluon-config-mode-autoupdater \
@@ -48,7 +47,7 @@ endif
 
 ifeq ($(GLUON_TARGET),ar71xx-tiny)
 GLUON_SITE_PACKAGES += \
-	#ffffm-additional-wifi-json-info \
+	ffffm-additional-wifi-json-info \
 	ffsw-ssid-changer \
 	ffsw-wifi-quickfix \
 	ffffm-button-bind
@@ -213,7 +212,7 @@ endif
 #                       opkg compare-versions "$1" '>>' "$2"
 #               to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := ffvp-v031
+DEFAULT_GLUON_RELEASE := ffvp-v032
 
 #       GLUON_RELEASE
 #               call make with custom GLUON_RELEASE flag, to use your own release version scheme.
