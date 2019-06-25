@@ -218,11 +218,7 @@ endif
 #                       opkg compare-versions "$1" '>>' "$2"
 #               to decide if a version is newer or not.
 
-<<<<<<< HEAD
 DEFAULT_GLUON_RELEASE := ffvp-v038
-=======
-DEFAULT_GLUON_RELEASE := ffvp-v037
->>>>>>> 34ca2e8b47bad483a2b39b7f02abf157e94ab261
 
 
 #       GLUON_RELEASE
